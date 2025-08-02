@@ -8,10 +8,10 @@ public class CoordinateQuadrant {
 
         // ввод координат
         System.out.print("Введите координату X (не равную 0): ");
-        double x = scanner.nextDouble(); // вводим кX через сканнер в консоли
+        double x = scanner.nextDouble(); // вводим кX через сканер в консоли
 
         System.out.print("Введите координату Y (не равную 0): ");
-        double y = scanner.nextDouble(); // вводим кY через сканнер в консоли
+        double y = scanner.nextDouble(); // вводим кY через сканер в консоли
 
         // проверка, что точка не лежит на осях
         if (x == 0 || y == 0) {
